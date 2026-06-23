@@ -1,134 +1,49 @@
-# Venkata Ram Nihal Rao - Modern Portfolio
+# Rao Venkata Ramnihal — Portfolio
 
-A sleek, modern portfolio website showcasing software engineering projects, experience, and technical expertise.
+Modern Next.js portfolio for a Computer Science Engineering student and software engineer aspiring for Full Stack, AI, Software Development, Data Engineering, Cloud, and Mobile roles.
 
-## ✨ Features
+🚀 Live Demo: [https://rvrnihal.github.io/](https://rvrnihal.github.io/)
 
-**🎨 Modern Design**
-- Minimalist black & white with orange accent color
-- Smooth animations and transitions
-- Professional typography
-- Fully responsive design
+## Stack
 
-**📱 Complete Sections**
-- Hero with floating cards
-- Featured work showcase
-- Technical skills grid
-- Experience & achievements
-- About section with stats
-- Contact section
-- Smooth navigation
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-**🛠️ Built With**
-- HTML5
-- CSS3 (Grid, Flexbox, Animations)
-- Vanilla JavaScript
-- Font Awesome Icons
-- No dependencies
+## What’s Included
 
-## 📂 Project Structure
+- Premium hero, about, skills, experience, projects, and contact sections
+- GitHub stats section with live profile data
+- SEO metadata, Open Graph tags, and JSON-LD schema
+- PWA manifest and downloadable resume placeholder
+- Mobile-first responsive layout
 
-```
-rao-nihal-portfolio-v2/
-├── index.html      # Main HTML
-├── styles.css      # Complete styling
-├── script.js       # Interactivity
-└── README.md       # Documentation
+## Local Development
+
+```bash
+npm install
+npm run dev
 ```
 
-## 🎨 Color Palette
+## Production Build
 
-- **Primary**: #000000 (Black)
-- **Accent**: #ff6b35 (Orange)
-- **Background**: #f5f5f5 (Light)
-- **Text**: #333333 (Dark Gray)
-
-## 🚀 Features Included
-
-✅ Responsive navigation with sticky header
-✅ Hero section with floating cards
-✅ Featured projects showcase (4 projects)
-✅ Technical skills organized by category
-✅ Experience timeline
-✅ About section with statistics
-✅ Contact information cards
-✅ Smooth scroll animations
-✅ Hover effects on interactive elements
-
-## 📊 Projects Showcased
-
-1. **IndiBuy** - Full-stack e-commerce platform
-2. **NutriCare** - Health tracking mobile app
-3. **ParkzIN** - Smart parking reservation system
-4. **AI Attendance System** - Facial recognition system
-
-## 💼 Technical Skills
-
-**Frontend**: React, HTML5, CSS3, JavaScript, Flutter
-**Backend**: Node.js, Python, Java, REST APIs, Flask
-**Databases**: MongoDB, MySQL, Firebase
-**Cloud & Tools**: AWS, Docker, Git, Linux
-**AI/ML**: Machine Learning, OpenCV, NLP
-
-## 📱 Responsive Breakpoints
-
-- Desktop: 1200px+
-- Tablet: 768px - 1199px
-- Mobile: Below 768px
-
-## 🎯 Key Highlights
-
-- 6+ Featured Projects
-- 4 Professional Internships
-- 8+ Certifications
-- B.Tech CSE (CGPA: 7.3/10)
-- Full Stack Development Expert
-- AI/ML Enthusiast
-
-## 🔧 Customization
-
-### Update Content
-Edit `index.html`:
-- Project details
-- Skills and expertise
-- Experience entries
-- Contact information
-
-### Change Colors
-Edit CSS variables in `styles.css`:
-```css
-:root {
-    --primary: #000000;      /* Main color */
-    --accent: #ff6b35;       /* Highlight color */
-    --light: #f5f5f5;        /* Background */
-}
+```bash
+npm run build
+npm run start
 ```
 
-### Add New Project
-Copy project card in HTML and update:
-- Project name
-- Description
-- Technologies
-- Links
+## Deployment Guide
 
-## 📧 Contact
+1. Push the repository to GitHub.
+2. Connect the repo to Vercel.
+3. Set the framework preset to Next.js.
+4. Use `npm run build` as the build command.
+5. Deploy and replace the live link above with your production URL if needed.
 
-- Email: rvrnihal@gmail.com
-- Phone: +91 9848717393
-- GitHub: github.com/rvrnihal
-- LinkedIn: linkedin.com/in/rvrnihal
+## Repository Structure
 
-## 📊 Performance
-
-- Lighthouse Score: 95+
-- Page Load: <300ms
-- Mobile Optimized: Yes
-- Accessibility: WCAG Compliant
-
-## 📝 License
-
-© 2026 Venkata Ram Nihal Rao. All rights reserved.
-
----
-
-
+- `pages/` - routes and page shell
+- `components/` - portfolio sections and UI blocks
+- `lib/seo.tsx` - SEO and schema metadata
+- `public/` - resume, manifest, and static assets

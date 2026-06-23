@@ -1,4 +1,4 @@
-# Venkata Ram Nihal Rao - Modern Portfolio (v2)
+# Venkata Ram Nihal Rao - Modern Portfolio
 
 A sleek, modern portfolio website showcasing software engineering projects, experience, and technical expertise.
 
@@ -131,6 +131,4 @@ Copy project card in HTML and update:
 
 ---
 
-**Status**: ✅ Complete  
-**Version**: 2.0  
-**Last Updated**: May 2026
+

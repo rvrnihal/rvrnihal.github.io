@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function ProjectCard({ title, description, href, live }: { title: string, description: string, href?: string, live?: string }) {
   return (
     <div className="p-4 border rounded">
@@ -7,7 +5,7 @@ export default function ProjectCard({ title, description, href, live }: { title:
         <h3 className="font-semibold">{title}</h3>
         <div className="text-sm">
           {live && <a href={live} className="text-blue-600 ml-2">Live</a>}
-          {href && <Link href={href} className="ml-2">Code</Link>}
+          {href && <a href={href} className="ml-2 text-blue-600">Code</a>}
         </div>
       </div>
       <p className="mt-2 text-sm text-slate-600">{description}</p>

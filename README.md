@@ -2,7 +2,7 @@
 
 Modern Next.js portfolio for a Computer Science Engineering student and software engineer aspiring for Full Stack, AI, Software Development, Data Engineering, Cloud, and Mobile roles.
 
-🚀 Live Demo: Replace this with your Vercel production URL after deployment
+🚀 Live Demo: [https://rvrnihal-github-io.vercel.app/](https://rvrnihal-github-io.vercel.app/)
 
 ## Stack
 
@@ -39,7 +39,7 @@ npm run start
 2. Connect the repo to Vercel.
 3. Set the framework preset to Next.js.
 4. Use `npm run build` as the build command.
-5. After deployment, copy the Vercel URL into the live demo link above.
+5. After deployment, keep the live demo link pointed at the deployed Vercel URL above.
 
 ## Repository Structure
 
